@@ -19,7 +19,7 @@ jobs:
         pip install setuptools wheel twine
     - name: build and publish
       run: |
-        python setupe.py sdist bdist_wheel
+        python setup.py sdist bdist_wheel
         twine upload dist/* --skip-existing  
       env:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}    
