@@ -1,9 +1,10 @@
 """Burrowts unit tests"""
 import os
-import threading
 import tempfile
+import threading
 import unittest
 from time import sleep
+
 from burrowts import BurrowTS
 
 
@@ -31,6 +32,7 @@ class BurrowTSTests(unittest.TestCase):
 
     def test_thread_safety(self):
         """Test thread safety"""
+
         def insert_data(database: BurrowTS):
             for i in range(10):
                 database.insert("series1", i)
