@@ -1,3 +1,5 @@
+[![Burrowts](https://github.com/iunary/burrowts/actions/workflows/app.yml/badge.svg)](https://github.com/iunary/burrowts/actions/workflows/app.yml)
+
 # BurrowTS
 
 The BurrowTS is a Python library that provides a simple and efficient time series database for storing and retrieving time-stamped values.
